@@ -167,7 +167,7 @@ if [ "$PLUGNAMES" != "" ]; then
             "Installing plugin PLUGREP"
     fi
 fi
-if __am_i_online; then
+fi
 
 # exit on fail
 failexitcode
