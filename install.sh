@@ -155,6 +155,7 @@ failexitcode
 
 # Plugins
 
+if __am_i_online; then
 if [ "$PLUGNAMES" != "" ]; then
     if [ -d "$PLUGDIR"/PLUREP/.git ]; then
         execute \
@@ -166,6 +167,7 @@ if [ "$PLUGNAMES" != "" ]; then
             "Installing plugin PLUGREP"
     fi
 fi
+if __am_i_online; then
 
 # exit on fail
 failexitcode
